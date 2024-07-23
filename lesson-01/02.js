@@ -12,3 +12,4 @@ let number = 1;
 while(number <=10) {
     factorial*=number
     number+=1
+}
