@@ -5,4 +5,11 @@
 */
 
 // your code
-let sum
+let sum = 0;
+let division = 1:
+
+while(division <= 20) {
+    if(count%2)
+    sum+=division
+    division+=1
+}
