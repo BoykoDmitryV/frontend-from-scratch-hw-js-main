@@ -9,5 +9,3 @@ while(number <=20) {
     sum+=number
     number+=1
 }
-
-alert(sum);
