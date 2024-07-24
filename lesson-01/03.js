@@ -6,10 +6,14 @@
 
 // your code
 let sum = 0;
-let division = 1:
+let division = 0;
 
-while(division <= 20) {
-    if(count%2)
-    sum+=division
-    division+=1
+while(division < 20)
+{
+  if(division % 2 !== 0){
+  console.log(division);
+
+  sum= sum+division;}
+  division=division+1;
+
 }
