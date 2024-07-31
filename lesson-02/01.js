@@ -13,9 +13,10 @@ const isVerifiedUser = false;
 const hasSpecialPermission = true;
 const hasTemporaryPass = false;
 
-let isAccess = true
+let isAccess 
 
 // your code
+const cypress = require("cypress");
 
 if ((isAdmin === true || isVerifiedUser === true) && (hasSpecialPermission === true || hasTemporaryPass === true)){
     isAccess = true;
