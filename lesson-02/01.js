@@ -15,3 +15,5 @@ const hasTemporaryPass = false;
 
 // Определение доступа
 let isAccess = ((isAdmin || isVerifiedUser) && (hasSpecialPermission || hasTemporaryPass));
+
+console.log(isAccess); 
