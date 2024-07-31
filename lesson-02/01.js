@@ -8,18 +8,14 @@
 */
 
 // тестовые данные (значения можно менять)
-const isAdmin = true
-const isVerifiedUser = true
-const hasSpecialPermission = true
-const hasTemporaryPass = true
+const isAdmin = true;
+const isVerifiedUser = true;
+const hasSpecialPermission = true;
+const hasTemporaryPass = true;
 
-let isAccess
+let isAccess;
 
 // your code
 
-        if ((isAdmin === true  isVerifiedUser === true) && (hasSpecialPermission === true  hasTemporaryPass === true)) {
-    isAccess = true;
-    } else {
-        isAccess = false;
-    }
-    console.log("isAccess", isAccess);
+isAccess = ((isAdmin || isVerifiedUser) && (hasSpecialPermission || hasTemporaryPass));
+    console.log(isAccess); 
