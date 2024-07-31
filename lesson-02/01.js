@@ -8,13 +8,13 @@
 */
 
 // тестовые данные (значения можно менять)
-const isAdmin = false
-const isVerifiedUser = false
+const isAdmin = true
+const isVerifiedUser = true
 const hasSpecialPermission = true
 const hasTemporaryPass = true
 
 // your code
-let isAccess;
+let isAccess
 
 if (isAdmin === true){
     isAccess = true
