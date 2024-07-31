@@ -17,5 +17,9 @@ let isAccess
 
 // your code
 
-isAccess = ((isAdmin || isVerifiedUser) && (hasSpecialPermission || hasTemporaryPass))
-    console.log(isAccess); 
+        if ((isAdmin === true  isVerifiedUser === true) && (hasSpecialPermission === true  hasTemporaryPass === true)) {
+    isAccess = true;
+    } else {
+        isAccess = false;
+    }
+    console.log("isAccess", isAccess);
