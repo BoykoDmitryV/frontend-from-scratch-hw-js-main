@@ -8,17 +8,10 @@
 */
 
 // тестовые данные (значения можно менять)
-const isAdmin = false;
-const isVerifiedUser = true;
+const isAdmin = true;
+const isVerifiedUser = false;
 const hasSpecialPermission = true;
 const hasTemporaryPass = false;
 
 // Определение доступа
-let isAccess = true
-if(isAccess) {
-    (isAdmin || isVerifiedUser) && (hasSpecialPermission || hasTemporaryPass);
-} else {
-    
-}
-
-console.log(isAccess);
+let isAccess = (isAdmin || isVerifiedUser) && (hasSpecialPermission || hasTemporaryPass);
