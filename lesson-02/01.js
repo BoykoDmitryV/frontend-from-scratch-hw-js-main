@@ -14,4 +14,4 @@ const hasSpecialPermission = true;
 const hasTemporaryPass = false;
 
 // Определение доступа
-let isAccess = (isAdmin || isVerifiedUser) && (hasSpecialPermission || hasTemporaryPass);
+let isAccess = ((isAdmin || isVerifiedUser) && (hasSpecialPermission || hasTemporaryPass));
