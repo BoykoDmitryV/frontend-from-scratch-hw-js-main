@@ -8,7 +8,7 @@
 */
 
 // тестовые данные (значения можно менять)
-const isAdmin = true
+const isAdmin = true      
 const isVerifiedUser = false
 const hasSpecialPermission = true
 const hasTemporaryPass = false
