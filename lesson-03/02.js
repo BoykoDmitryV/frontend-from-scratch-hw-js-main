@@ -5,9 +5,9 @@ function isEven(numb) {
     let number = numb;
     if (Math.floor(number / 2) == number / 2) {
     //Чётное
-    return false;
+    return true;
     } else {
     //Нечётное
-    return true;
+    return false;
     }
 }
