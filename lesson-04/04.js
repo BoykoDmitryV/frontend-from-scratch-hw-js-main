@@ -20,4 +20,4 @@ function doubleEachCharacter(str) {
     return input
 }
 
-console.log(doubleEachCharacter(`hello`));
+// console.log(doubleEachCharacter(`hello`));

@@ -11,7 +11,7 @@ let division = 0;
 while(division < 20)
 {
   if(division % 2 !== 0){
-  console.log(division);
+  // console.log(division);
 
   sum= sum+division;}
   division=division+1;
