@@ -17,6 +17,6 @@ function capitalizeWords(str) {
 
   const input = "hello world from javascript"
   const result = capitalizeWords(input)
-  console.log(result);
+  // console.log(result);
   
 
