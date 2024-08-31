@@ -14,7 +14,7 @@ function truncate(str, maxLength) {
       return str;
   }
 
-  const truncatedLength = maxLength - 3;
+  const truncatedLength = maxLength;
 
   return str.slice(0, truncatedLength) + '...';
 }
