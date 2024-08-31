@@ -15,3 +15,6 @@ function truncate(str, maxLength) {
 }
 return str;
 }
+
+// console.log(truncate("Вот, что мне действительно нравится в этом", 20));
+
