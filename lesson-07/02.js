@@ -4,7 +4,7 @@
  */
 
 function isNumeric(str) {
-  return +str ? true : false
+  return Number(str) ? true : false
   }
 
 console.log(isNumeric("123")) // Ожидаемый результат: true
