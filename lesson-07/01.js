@@ -7,16 +7,16 @@
 */
 
 function capitalizeWords(str) {
-  const newStr = ''
-  for (let i = 0; i < str.length; i++){
-    if (str[i] === 0 && str[i-1] === ' '){
-      newStr += str[i].toUpperCase()
-  } else {
-      newStr += str[i].toLowerCase()
+  let words = str.split(' ');
+  for (let i = 0; i < words.length; i++) {
+    words[i] = words[i].charAt(0).toUpperCase() + words[i].slice(1)
+}
+  return words.join(' ');
   }
-}
-  return newStr
-}
+
+
+  // const input = "hello world from javascript"
+  // const result = capitalizeWords(input)
 
 
   //  console.log(result);
@@ -52,13 +52,3 @@ function capitalizeWords(str) {
 
 
 
-//   let words = str.split(' ');
-//   for (let i = 0; i < words.length; i++) {
-//     words[i] = words[i].charAt(0).toUpperCase() + words[i].slice(1)
-// }
-//   return words.join(' ');
-//   }
-
-
-//   const input = "hello world from javascript"
-//   const result = capitalizeWords(input)
