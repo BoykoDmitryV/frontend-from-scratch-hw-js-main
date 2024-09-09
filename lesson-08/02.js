@@ -45,6 +45,7 @@ startButton.addEventListener('click', () => {
         countdownDisplay.textContent = "🚀"
     }
 }, 1000);
+clearInterval();
 })
 
 cancelButton.addEventListener('click', () => {
