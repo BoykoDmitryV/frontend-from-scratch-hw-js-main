@@ -36,6 +36,7 @@ startButton.addEventListener('click', () => {
   let counter = 3
 
   // your code
+  
 })
 
 cancelButton.addEventListener('click', () => {
