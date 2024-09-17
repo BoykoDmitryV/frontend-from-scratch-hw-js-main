@@ -9,19 +9,29 @@
 - `element` (текущий элемент массива),
 - `index` (индекс текущего элемента),
 
-Ваша функция `map` должна возвращать новый массив, где каждый элемент является результатом вызова функции `callback` на каждом элементе исходного массива.
+Ваша функция `map` должна возвращать новый массив, где каждый элемент является результатом вызова функции `callback` на каждом яэлементе исходного массива.
 */
 
-/*
-Пример использования вашей функции:
 
-const numbers = [1, 2, 3, 4, 5]
 
-const doubledNumbers = map(numbers, (element, index) => {
-  return element * 2
-})
+const map = (array, callback) => {
+  const newArray = []
+  for (let index = 0; index < array.length; index++) {
+      const element = array[index]
+      if(callback(element, index)) {
+        newArray.push(element * 2)
+      }
+    }
+    return newArray
+}
 
-console.log(doubledNumbers) // Должен вывести: [2, 4, 6, 8, 10]
-*/
 
-const map = () => {}
+// Пример использования вашей функции:
+
+// const numbers = [1, 2, 3, 4, 5]
+
+// const doubledNumbers = map(numbers, (element, index) => {
+//   return element * 2
+// })
+
+// console.log(doubledNumbers) // Должен вывести: [2, 4, 6, 8, 10]
